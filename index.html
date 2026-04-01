@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>10X Analytics Worldwide | Intelligence Systems for Defense, Business, and Beyond</title>
+  <meta name="description" content="10X Analytics Worldwide — Service-Disabled Veteran-Owned AI systems company. QUANTA post-quantum cryptography, ODIN data fusion, and custom AI products for defense and commercial markets." />
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <canvas id="particle-canvas"></canvas>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#home">10X ANALYTICS WORLDWIDE</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#p2labs">P2 Labs</a></li>
+        <li><a href="#solutions">Solutions</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#credentials">Credentials</a></li>
+        <li><a href="#contact" class="nav-cta">Contact Us</a></li>
+      </ul>
+      <button class="nav-hamburger" onclick="toggleMenu()">&#9776;</button>
+    </div>
+    <ul class="nav-mobile" id="mobileMenu">
+      <li><a href="#about" onclick="toggleMenu()">About</a></li>
+      <li><a href="#p2labs" onclick="toggleMenu()">P2 Labs</a></li>
+      <li><a href="#solutions" onclick="toggleMenu()">Solutions</a></li>
+      <li><a href="#products" onclick="toggleMenu()">Products</a></li>
+      <li><a href="#credentials" onclick="toggleMenu()">Credentials</a></li>
+      <li><a href="#contact" onclick="toggleMenu()">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-corner tl"></div>
+    <div class="hero-corner tr"></div>
+    <div class="hero-corner bl"></div>
+    <div class="hero-corner br"></div>
+    <div class="hero-content">
+      <div class="hero-logo-wrap">
+        <img src="logo-brain.png" alt="10X Analytics Worldwide" class="hero-logo-img" />
+      </div>
+      <div class="hero-badge">Service-Disabled Veteran-Owned Small Business · Powered by P2 Labs R&amp;D</div>
+      <h1 class="hero-title">10X ANALYTICS WORLDWIDE</h1>
+      <p class="hero-tagline">
+        <span class="accent">Intelligence Systems</span> for Defense, Business, and Beyond.
+      </p>
+      <p class="hero-sub">The commercial and contracting arm of the <strong>P2 Labs</strong> innovation ecosystem. Post-quantum cryptography, AI data fusion, and custom intelligence systems — built by a Navy veteran and former NASA engineer.</p>
+      <div class="hero-actions">
+        <a href="#solutions" class="btn-primary">Explore Solutions</a>
+        <a href="#products" class="btn-secondary">Live Products</a>
+      </div>
+      <div class="hero-creds">
+        <div class="hero-cred-item"><span class="dot"></span>CAGE: 12GD0</div>
+        <div class="hero-cred-item"><span class="dot"></span>UEI: SFC3WHK9SSH3</div>
+        <div class="hero-cred-item"><span class="dot"></span>SDVOSB Certified</div>
+        <div class="hero-cred-item"><span class="dot"></span>VSBE Certified</div>
+        <div class="hero-cred-item"><span class="dot"></span>SAM.gov Registered</div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <div class="section-label">Who We Are</div>
+          <h2 class="section-title">Built From the Field.<br/><span class="grad-text">Engineered for the Future.</span></h2>
+          <p>10X Analytics Worldwide, LLC is an AI systems company founded by <strong>Eric T. Butler, Sr.</strong> — a U.S. Navy veteran and former NASA senior software engineer with deep experience in ballistic missile defense algorithms and real-time decision-making systems.</p>
+          <p>We don't build generic AI tools. We build <strong>intelligence systems</strong> — trained on domain expertise that takes decades to develop, deployed in environments where precision is non-negotiable.</p>
+          <p>From post-quantum cryptography patents to Navy evaluation AI to automated AI product pipelines, 10X delivers technology at the intersection of mission-critical operations and cutting-edge AI capability.</p>
+
+          <div class="p2-callout">
+            <div class="p2-label">P2 Labs — R&D Division</div>
+            <p>The QUANTA-PULSE technology powering our post-quantum cryptography work was developed by <strong>P2 Labs</strong>, the research and IP division of 10X Analytics Worldwide. P2 Labs is where the patents originate — 10X is where they become operational systems.</p>
+          </div>
+
+          <a href="#contact" class="btn-primary">Work With Us</a>
+        </div>
+        <div class="about-stats reveal">
+          <div class="stat">
+            <span class="stat-number">USPTO</span>
+            <span class="stat-label">Patent #63/805,300<br/>QUANTA-PULSE Filed</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">SBIR</span>
+            <span class="stat-label">Phase I Pipeline<br/>Navy &amp; DoD Topics</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">NIST</span>
+            <span class="stat-label">Post-Quantum Crypto<br/>Migration Alignment</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">Live</span>
+            <span class="stat-label">AI Products<br/>In Market Today</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- P2 LABS -->
+  <section id="p2labs" class="section p2labs">
+    <div class="p2labs-bg"></div>
+    <div class="container">
+      <div class="p2labs-inner">
+        <div class="p2labs-left reveal">
+          <div class="p2labs-eyebrow">The Innovation Engine</div>
+          <div class="p2labs-logo">P2 LABS</div>
+          <div class="p2labs-sub">Perfect Squared, Inc.</div>
+          <p class="p2labs-tagline">"Simulate the Future.<br/>Secure the Present."</p>
+          <p class="p2labs-desc">P2 Labs is the IP origination and R&D core of this ecosystem. Every patent, every breakthrough, every defense-grade technology begins here. 10X Analytics Worldwide is how it reaches the market — P2 Labs is where it's born.</p>
+          <div class="p2labs-patent">
+            <div class="patent-label">USPTO Patent Application</div>
+            <div class="patent-number">#63/805,300</div>
+            <div class="patent-name">QUANTA-PULSE — Symbolic Agent Swarms for Quantum-Secure Telemetry</div>
+          </div>
+        </div>
+        <div class="p2labs-right reveal">
+          <div class="quanta-card">
+            <div class="qc-header">
+              <span class="qc-badge">FLAGSHIP TECHNOLOGY</span>
+              <span class="qc-badge alt">PATENT PENDING</span>
+            </div>
+            <h3 class="qc-title">⚛️ QUANTA-PULSE</h3>
+            <p class="qc-sub">Post-Quantum Cryptographic Defense System</p>
+            <p class="qc-desc">XOR-lattice entropy architecture with symbolic agent swarms designed for missile defense telemetry protection, Aegis radar resilience, and NIST post-quantum cryptography migration compliance.</p>
+            <div class="qc-specs">
+              <div class="spec"><span class="spec-label">Architecture</span><span class="spec-val">Symbolic Agent Swarms + XOR-Lattice Entropy</span></div>
+              <div class="spec"><span class="spec-label">Application</span><span class="spec-val">Aegis Baseline 9A2A · SM-6 · Link-16</span></div>
+              <div class="spec"><span class="spec-label">Alignment</span><span class="spec-val">NIST PQC Migration Standards</span></div>
+              <div class="spec"><span class="spec-label">SBIR Targets</span><span class="spec-val">MDA · NRL · NAVWAR N254-P03</span></div>
+            </div>
+          </div>
+          <div class="quanta-card secondary">
+            <h3 class="qc-title">🧠 QUANTA-RAD</h3>
+            <p class="qc-sub">Missile Spoof Detection & Radar Resilience</p>
+            <p class="qc-desc">Entropy-based signal analysis variant of the QUANTA framework. Detects radar spoofing attempts using symbolic entropy agents and RF signal anomaly classification in real-time.</p>
+            <div class="qc-tags">
+              <span>Radar Spoof Detection</span>
+              <span>Entropy Signal Analysis</span>
+              <span>Real-Time Inference</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- SOLUTIONS -->
+  <section id="solutions" class="section solutions">
+    <div class="container">
+      <div class="solutions-header reveal">
+        <div>
+          <div class="section-label">What We Build</div>
+          <h2 class="section-title">Solutions</h2>
+          <p class="section-sub">Defense-grade AI research to turnkey commercial products — 10X delivers across the full intelligence spectrum.</p>
+        </div>
+      </div>
+
+      <div class="solutions-grid reveal">
+        <div class="solution-card featured">
+          <div class="card-number">01 / DEFENSE</div>
+          <div class="card-icon-wrap">⚛️</div>
+          <h3>QUANTA-PULSE</h3>
+          <p class="card-tag">Post-Quantum Cryptography · Patent Filed · SBIR</p>
+          <p>Symbolic Agent Swarms for quantum-secure telemetry and radar resilience. XOR-lattice entropy architecture for missile defense, Aegis integration, and NIST PQC migration mandates. Developed by P2 Labs.</p>
+          <ul>
+            <li>USPTO Patent #63/805,300 (filed)</li>
+            <li>NIST post-quantum migration alignment</li>
+            <li>Radar spoof detection & threat intelligence</li>
+            <li>MDA & NRL SBIR target topics</li>
+          </ul>
+        </div>
+
+        <div class="solution-card featured">
+          <div class="card-number">02 / DEFENSE</div>
+          <div class="card-icon-wrap">🧠</div>
+          <h3>ODIN</h3>
+          <p class="card-tag">AI Data Fusion · Virtual Agent · SBIR Phase I</p>
+          <p>Virtual Agent for Data Fusion & Understanding. Multi-source intelligence fusion for defense signal processing, sensor fusion, and autonomous threat assessment at machine speed.</p>
+          <ul>
+            <li>SBIR Phase I proposal developed ($239K)</li>
+            <li>NRL N252 topic alignment</li>
+            <li>Multi-agent simulation environment</li>
+            <li>Real-time inference architecture</li>
+          </ul>
+        </div>
+
+        <div class="solution-card featured">
+          <div class="card-number">03 / COMMERCIAL</div>
+          <div class="card-icon-wrap">🚀</div>
+          <h3>10X Stack</h3>
+          <p class="card-tag">AI Product Launch System · Done-For-You</p>
+          <p>We take your domain expertise — years of specialized knowledge — and engineer it into a deployable, revenue-generating AI product. Full pipeline: RAG app, licensing, payments, delivery, deployment.</p>
+          <ul>
+            <li>Custom RAG app trained on your documents</li>
+            <li>Automated license key & email delivery</li>
+            <li>Payment integration & cloud deployment</li>
+            <li>Full launch in days, not months</li>
+          </ul>
+          <a href="#contact" class="card-link">Get a Build Quote →</a>
+        </div>
+      </div>
+
+      <div class="solutions-grid-bottom reveal">
+        <div class="solution-card">
+          <div class="card-number">04 / CONSULTING</div>
+          <div class="card-icon-wrap">🔐</div>
+          <h3>PQC Consulting</h3>
+          <p class="card-tag">Post-Quantum Cryptography · Compliance</p>
+          <p>Assessment, migration planning, and implementation guidance for NIST PQC standards compliance. Built for defense contractors, financial institutions, and federal agencies preparing for the quantum transition.</p>
+          <ul>
+            <li>NIST PQC standards alignment review</li>
+            <li>Cryptographic vulnerability assessment</li>
+            <li>Migration roadmap & implementation</li>
+          </ul>
+          <a href="#contact" class="card-link">Request Consultation →</a>
+        </div>
+
+        <div class="solution-card">
+          <div class="card-number">05 / DEVELOPMENT</div>
+          <div class="card-icon-wrap">📊</div>
+          <h3>AI Systems Development</h3>
+          <p class="card-tag">Custom AI · Federal &amp; Commercial</p>
+          <p>End-to-end AI system design and deployment. RAG architectures, vector databases, LLM integration, and custom intelligence pipelines built to production-grade standards.</p>
+          <ul>
+            <li>RAG architecture & Pinecone deployment</li>
+            <li>LLM integration & prompt engineering</li>
+            <li>Federal-compliant cloud deployment</li>
+          </ul>
+          <a href="#contact" class="card-link">Start a Project →</a>
+        </div>
+
+        <div class="solution-card">
+          <div class="card-number">06 / FEDERAL</div>
+          <div class="card-icon-wrap">🎯</div>
+          <h3>Federal Contracting</h3>
+          <p class="card-tag">SBIR · Defense · Teaming</p>
+          <p>SDVOSB and VSBE certified, SAM.gov registered, and actively pursuing SBIR Phase I and II contracts in AI and post-quantum cryptography. Open to teaming agreements with prime contractors.</p>
+          <ul>
+            <li>SDVOSB & VSBE certified small business</li>
+            <li>SBIR Phase I & II pipeline active</li>
+            <li>Teaming agreement opportunities</li>
+          </ul>
+          <a href="#contact" class="card-link">Explore Teaming →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- PRODUCTS -->
+  <section id="products" class="section products">
+    <div class="container">
+      <div class="reveal">
+        <div class="section-label">Live Products</div>
+        <h2 class="section-title">AI Tools <span class="grad-text">Available Today</span></h2>
+        <p class="section-sub">Standalone AI products — no subscriptions, no ChatGPT account required. Domain expertise, deployed.</p>
+      </div>
+      <div class="products-grid reveal">
+
+        <div class="product-card">
+          <div class="product-badge live">Live — Available Now</div>
+          <div class="product-icon">⚓</div>
+          <h3>NavyEval GPT</h3>
+          <p class="product-price">$29.99 · One-Time Purchase · Instant Access</p>
+          <p>AI-powered FITREP & Evaluation Generator built exclusively for Navy personnel. Trained on BUPERSINST 1610.10F, NAVFIT98A, and thousands of real eval examples. EP/MP quota-aware — gets it right.</p>
+          <ul class="product-features">
+            <li>BUPERSINST 1610.10F compliant generation</li>
+            <li>EP/MP/P quota-aware — knows the rules</li>
+            <li>Bullet Improver — 3 stronger versions instantly</li>
+            <li>RAG-powered chat assistant for eval questions</li>
+            <li>Download evals as .txt — submission ready</li>
+          </ul>
+          <div class="product-actions">
+            <a href="https://squaredperfect.gumroad.com/l/zvudl" target="_blank" class="btn-primary">Buy Now — $29.99</a>
+            <a href="https://navfit-gpt-production.up.railway.app" target="_blank" class="product-demo">→ Access the App</a>
+          </div>
+        </div>
+
+        <div class="product-card coming-soon">
+          <div class="product-badge soon">Coming Soon</div>
+          <div class="product-icon">📄</div>
+          <h3>Resume Boost GPT</h3>
+          <p class="product-price">Coming Soon · Notify Me</p>
+          <p>ATS-optimized resume bullet generator for military-to-civilian career transitions. Translate your service record into civilian language that gets past applicant tracking systems and into interviews.</p>
+          <ul class="product-features">
+            <li>Military MOS/rate to civilian translation</li>
+            <li>ATS keyword optimization by industry</li>
+            <li>Federal resume format support</li>
+            <li>LinkedIn headline & summary generation</li>
+          </ul>
+          <div class="product-actions">
+            <a href="#contact" class="btn-secondary">Get Notified at Launch</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- CREDENTIALS -->
+  <section id="credentials" class="section credentials">
+    <div class="container">
+      <div class="reveal">
+        <div class="section-label">Verified & Certified</div>
+        <h2 class="section-title">Government <span class="grad-text">&amp; Business</span> Credentials</h2>
+        <p class="section-sub">Certified, registered, and cleared to operate at the federal level.</p>
+      </div>
+      <div class="creds-grid reveal">
+        <div class="cred-card">
+          <div class="cred-top">
+            <div class="cred-icon">🎖️</div>
+            <h4>SDVOSB Certified</h4>
+          </div>
+          <p>Service-Disabled Veteran-Owned Small Business federal certification — qualifying for defense and government procurement preference programs across all federal agencies.</p>
+        </div>
+        <div class="cred-card">
+          <div class="cred-top">
+            <div class="cred-icon">⚓</div>
+            <h4>VSBE / CSB Certified</h4>
+          </div>
+          <p>Maryland Veteran-Owned Small Business Enterprise and Certified Small Business. Dual-certified for state procurement preference programs and Maryland agency set-asides.</p>
+        </div>
+        <div class="cred-card">
+          <div class="cred-top">
+            <div class="cred-icon">🏛️</div>
+            <h4>SAM.gov Registered</h4>
+          </div>
+          <p>Fully registered in the System for Award Management for federal contracting eligibility.<br/><strong style="color:#c8d6e8">UEI: SFC3WHK9SSH3 · CAGE: 12GD0</strong></p>
+        </div>
+        <div class="cred-card">
+          <div class="cred-top">
+            <div class="cred-icon">🔬</div>
+            <h4>SBIR Pipeline Active</h4>
+          </div>
+          <p>Active Small Business Innovation Research participant. Phase I proposals submitted and in development targeting Navy, DoD, and NRL topics in AI systems and post-quantum cryptography.</p>
+        </div>
+        <div class="cred-card">
+          <div class="cred-top">
+            <div class="cred-icon">⚛️</div>
+            <h4>USPTO Patent Filed</h4>
+          </div>
+          <p>Patent Application <strong style="color:#c8d6e8">#63/805,300</strong> — QUANTA-PULSE: Symbolic Agent Swarms for quantum-secure telemetry, radar resilience, and post-quantum cryptographic infrastructure.</p>
+        </div>
+        <div class="cred-card">
+          <div class="cred-top">
+            <div class="cred-icon">🛡️</div>
+            <h4>eMMA Registered</h4>
+          </div>
+          <p>Registered in Maryland's eMMA procurement portal. Supplier ID: <strong style="color:#c8d6e8">1072891</strong>. Listed under BI software, analytical software, computer services, systems integration, data analytics, and technical writing commodity codes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <div class="reveal">
+        <div class="section-label">Get In Touch</div>
+        <h2 class="section-title">Let's Build <span class="grad-text">Something.</span></h2>
+        <p class="section-sub">Teaming opportunities, custom AI builds, SBIR partnerships, or product inquiries — reach out.</p>
+      </div>
+      <div class="contact-grid reveal">
+        <div class="contact-info">
+          <p class="contact-info-title">10X Analytics Worldwide, LLC</p>
+          <div class="contact-item">
+            <span class="contact-label">Email</span>
+            <a href="mailto:eric.butler@10xanalyticsworldwide.io">eric.butler@10xanalyticsworldwide.io</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">Phone</span>
+            <a href="tel:+14103010325">(410) 301-0325</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">Location</span>
+            <span>Salisbury, Maryland</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">CAGE Code</span>
+            <span>12GD0</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">UEI</span>
+            <span>SFC3WHK9SSH3</span>
+          </div>
+          <div class="contact-socials">
+            <a href="https://www.linkedin.com/company/10x-analytics-worldwide" target="_blank" class="social-link">LinkedIn</a>
+          </div>
+        </div>
+
+        <form class="contact-form" onsubmit="handleSubmit(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <input type="text" placeholder="Full Name" required />
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Email Address" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Organization / Agency (optional)" />
+          </div>
+          <div class="form-group">
+            <select required>
+              <option value="" disabled selected>I'm interested in...</option>
+              <option>10X Stack — AI Product Build</option>
+              <option>QUANTA / PQC Research & Consulting</option>
+              <option>Federal Contracting / Teaming Agreement</option>
+              <option>SBIR Partnership or Collaboration</option>
+              <option>AI Systems Development</option>
+              <option>NavyEval GPT Support</option>
+              <option>General Inquiry</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Tell us about your project, opportunity, or question..." rows="6" required></textarea>
+          </div>
+          <button type="submit" class="btn-primary full-width">Send Message →</button>
+          <div id="form-success" class="form-success" style="display:none;">
+            Message received. We'll respond within 24 hours.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <span class="footer-logo">10X ANALYTICS WORLDWIDE</span>
+          <p class="footer-tagline">"Intelligence Systems for Defense, Business, and Beyond."</p>
+          <p class="footer-legal">
+            10X Analytics Worldwide, LLC · Salisbury, Maryland<br/>
+            CAGE: 12GD0 · UEI: SFC3WHK9SSH3 · eMMA ID: 1072891<br/>
+            Service-Disabled Veteran-Owned Small Business (SDVOSB)<br/>
+            VSBE &amp; CSB Certified · SAM.gov Registered<br/>
+            Not affiliated with the U.S. Department of Defense.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <a href="#about">About</a>
+          <a href="#solutions">Solutions</a>
+          <a href="#products">Products</a>
+          <a href="#credentials">Credentials</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h5>Products</h5>
+          <a href="https://squaredperfect.gumroad.com/l/zvudl" target="_blank">NavyEval GPT</a>
+          <a href="https://navfit-gpt-production.up.railway.app" target="_blank">App Access</a>
+          <a href="#contact">Resume Boost GPT</a>
+          <a href="#contact">10X Stack</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 10X Analytics Worldwide, LLC. All rights reserved.</p>
+        <p>P2 Labs is a research division of 10X Analytics Worldwide.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // ── Particle Canvas ──────────────────────────────
+    const canvas = document.getElementById('particle-canvas');
+    const ctx = canvas.getContext('2d');
+    let particles = [];
+    let W, H;
+
+    function resize() {
+      W = canvas.width = window.innerWidth;
+      H = canvas.height = window.innerHeight;
+    }
+    resize();
+    window.addEventListener('resize', resize);
+
+    class Particle {
+      constructor() { this.reset(); }
+      reset() {
+        this.x = Math.random() * W;
+        this.y = Math.random() * H;
+        this.vx = (Math.random() - 0.5) * 0.3;
+        this.vy = (Math.random() - 0.5) * 0.3;
+        this.r = Math.random() * 1.5 + 0.3;
+        this.alpha = Math.random() * 0.5 + 0.1;
+        this.color = Math.random() > 0.5 ? '10,132,255' : '123,94,247';
+      }
+      update() {
+        this.x += this.vx;
+        this.y += this.vy;
+        if (this.x < 0 || this.x > W || this.y < 0 || this.y > H) this.reset();
+      }
+      draw() {
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(${this.color},${this.alpha})`;
+        ctx.fill();
+      }
+    }
+
+    for (let i = 0; i < 120; i++) particles.push(new Particle());
+
+    function drawConnections() {
+      for (let i = 0; i < particles.length; i++) {
+        for (let j = i + 1; j < particles.length; j++) {
+          const dx = particles[i].x - particles[j].x;
+          const dy = particles[i].y - particles[j].y;
+          const dist = Math.sqrt(dx * dx + dy * dy);
+          if (dist < 120) {
+            ctx.beginPath();
+            ctx.moveTo(particles[i].x, particles[i].y);
+            ctx.lineTo(particles[j].x, particles[j].y);
+            ctx.strokeStyle = `rgba(10,132,255,${0.06 * (1 - dist / 120)})`;
+            ctx.lineWidth = 0.5;
+            ctx.stroke();
+          }
+        }
+      }
+    }
+
+    function animate() {
+      ctx.clearRect(0, 0, W, H);
+      particles.forEach(p => { p.update(); p.draw(); });
+      drawConnections();
+      requestAnimationFrame(animate);
+    }
+    animate();
+
+    // ── Sticky nav ──────────────────────────────────
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // ── Mobile menu ─────────────────────────────────
+    function toggleMenu() {
+      document.getElementById('mobileMenu').classList.toggle('open');
+    }
+
+    // ── Smooth scroll ────────────────────────────────
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        const t = document.querySelector(a.getAttribute('href'));
+        if (t) t.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+
+    // ── Scroll reveal ────────────────────────────────
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    // ── Contact form ─────────────────────────────────
+    function handleSubmit(e) {
+      e.preventDefault();
+      document.getElementById('form-success').style.display = 'block';
+      e.target.reset();
+    }
+  </script>
+
+</body>
+</html>
