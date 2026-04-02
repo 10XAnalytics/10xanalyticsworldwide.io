@@ -1448,3 +1448,47 @@ body::before {
 @media (max-width: 768px) {
   .seraphim-strip { flex-direction: column; text-align: center; }
 }
+
+/* ── QUANTA Products Grid ───────────────────────────────────── */
+.quanta-products-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+.qp-card {
+  background: rgba(0, 212, 255, 0.04);
+  border: 1px solid rgba(0, 212, 255, 0.15);
+  border-radius: 8px;
+  padding: 1rem;
+  transition: border-color 0.3s;
+}
+.qp-card:hover { border-color: rgba(0, 212, 255, 0.4); }
+.qp-name {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #E0E0FF;
+  margin-bottom: 0.3rem;
+}
+.qp-badge {
+  display: inline-block;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #00D4FF;
+  border: 1px solid rgba(0, 212, 255, 0.3);
+  border-radius: 3px;
+  padding: 1px 6px;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+.qp-desc {
+  font-size: 0.78rem;
+  color: #8888AA;
+  line-height: 1.5;
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .quanta-products-grid { grid-template-columns: 1fr; }
+}
