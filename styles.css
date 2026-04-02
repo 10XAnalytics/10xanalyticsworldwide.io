@@ -1408,3 +1408,43 @@ body::before {
   .hero-creds { flex-direction: column; align-items: center; gap: 0.5rem; }
   .about-stats { grid-template-columns: 1fr 1fr; }
 }
+
+/* ── Seraphim Strip ─────────────────────────────────────────── */
+.seraphim-strip {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 3rem;
+  padding: 1.5rem 2rem;
+  background: linear-gradient(135deg, rgba(184,142,51,0.06), rgba(184,142,51,0.02));
+  border: 1px solid rgba(184,142,51,0.2);
+  border-radius: 12px;
+}
+.seraphim-logo {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.seraphim-name {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #B88E33;
+  letter-spacing: 0.1em;
+}
+.seraphim-sub {
+  font-size: 0.85rem;
+  color: #8888AA;
+  margin-top: 0.3rem;
+}
+.seraphim-tag {
+  font-size: 0.75rem;
+  color: rgba(184,142,51,0.5);
+  margin-top: 0.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+@media (max-width: 768px) {
+  .seraphim-strip { flex-direction: column; text-align: center; }
+}
