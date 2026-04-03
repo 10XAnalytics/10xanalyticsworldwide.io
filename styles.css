@@ -1445,6 +1445,26 @@ body::before {
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
+.seraphim-links {
+  display: flex;
+  gap: 1.2rem;
+  margin-top: 0.8rem;
+  flex-wrap: wrap;
+}
+.seraphim-link {
+  font-size: 0.75rem;
+  color: rgba(184,142,51,0.7);
+  text-decoration: none;
+  border: 1px solid rgba(184,142,51,0.3);
+  padding: 0.2rem 0.6rem;
+  border-radius: 3px;
+  letter-spacing: 0.05em;
+  transition: color 0.2s, border-color 0.2s;
+}
+.seraphim-link:hover {
+  color: #B88E33;
+  border-color: #B88E33;
+}
 @media (max-width: 768px) {
   .seraphim-strip { flex-direction: column; text-align: center; }
 }
